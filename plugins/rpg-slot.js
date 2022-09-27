@@ -82,7 +82,7 @@ ${spins7}|${spins8}|${spins9}
     }
 }
 handler.help = ['slot', 'jackpot']
-handler.tags = ['rpg']
+handler.tags = ['game']
 handler.command = /^slot?|jac?kpot$/i
 
 export default handler
