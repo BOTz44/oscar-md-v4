@@ -1,18 +1,20 @@
 //Credits Jangan Dihapus
-//Thanks To Jarot 
+//Thanks For KannaChan & Papah-Chan
 import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
-let str = `*https://youtu.be/1SQmGPpd0kU*`
-let wibu = `https://hadi-api.herokuapp.com/api/loli` 
+let str = `*https://dwiqi.my.id/root/Mizu*`
+let wibu = `https://api.zacros.my.id/randomimg/waifu` 
 let thumb = await(await fetch(wibu)).buffer()
-conn.sendButtonDoc(m.chat, str, wm,'ᴏᴋ','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/Jarotr_",
-    title: 'Oscar-MultiDevice',
-    body: 'Jangan Dijual ngentod Jangan Lupa Suscribe',
+conn.sendButtonDoc(m.chat, str, wm,'Thankyou','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: "https://Instagram.com/leonvx._",
+    mediaType: "VIDEO",
+    description: "https://www.instagram.com/reel/Ce_bngYBkEA/?igshid=YmMyMTA2M2Y=", 
+    title: 'Yui-Chan MultiDevice',
+    body: wm,
     thumbnail: thumb,
-    sourceUrl: sig
+    sourceUrl: sgc
   }
   } }) 
           }
